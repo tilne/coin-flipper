@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle coin-flipper",
+        "command": "coin-flipper:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "coin-flipper",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "coin-flipper:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
