@@ -3,10 +3,9 @@
   "main": "./lib/coin-flipper",
   "version": "0.0.0",
   "description": "A short description of your package",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
-    "atom-workspace": "coin-flipper:toggle"
+    "atom-workspace": "coin-flipper:flip"
   },
   "repository": "https://github.com/atom/coin-flipper",
   "license": "MIT",
@@ -14,5 +13,6 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "node-fetch": "^2.6.0"
   }
 }

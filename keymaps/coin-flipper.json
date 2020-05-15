@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "coin-flipper:toggle"
+    "ctrl-alt-o": "coin-flipper:flip"
   }
 }
